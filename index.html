@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz di Domande</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="quiz">
+        <div class="question">
+            <h2 id="question-text"></h2>
+            <form id="quiz-form" action="" onsubmit="return submitAnswer(event)">
+                <input type="text" id="user-answer" class="answer" placeholder="Scrivi la tua risposta" />
+                <input class="bottone" type="submit" value="Rispondi" />
+            </form>
+        </div>
+        <div id="result"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
